@@ -11,7 +11,7 @@ This is a simple password generator application implemented using the Tkinter li
 2. Install the Tkinter library if it's not already included with your Python installation.
 3. Save the code in a file with a `.py` extension (e.g., `password_generator.py`).
 4. Open a terminal or command prompt and navigate to the directory where the file is saved.
-5. Run the script using the command `python password_generator.py`.
+5. Run the script using the command `python passwordgenerator.py`.
 
 ## Usage
 1. Enter the desired password length in the "Password Length" entry field.
