@@ -1,6 +1,13 @@
 import tkinter as tk
 import random
 import string
+import tkinter.messagebox as messagebox
+
+def copy_password():
+    generated_password = password_label.cget("text")
+    window.clipboard_clear()
+    window.clipboard_append(generated_password)
+    messagebox.showinfo("Password Generator", "Password copied to clipboard!")
 
 def generate_password():
     try:
@@ -58,6 +65,9 @@ punctuation_checkbox.pack()
 
 generate_password_button = tk.Button(window, text="Generate Password", command=generate_password)
 generate_password_button.pack()
+
+copy_password_button = tk.Button(window, text="Copy Password", command=copy_password)
+copy_password_button.pack()
 
 password_label = tk.Label(window, text="")
 password_label.pack()
