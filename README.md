@@ -22,6 +22,7 @@ This is a simple password generator application implemented using the Tkinter li
    - "Punctuation": Includes punctuation characters.
 3. Click the "Generate Password" button to generate a random password based on the selected options.
 4. The generated password will be displayed in the label below the button.
+5. Click the "Copy Password" button to copy the generated password to the clipboard. A message box will confirm the successful copy operation.
 
 Note: If no character sets are selected, all character sets (uppercase letters, lowercase letters, digits, and punctuation) will be included by default.
 
